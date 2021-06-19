@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(219, 219, 219);
+}
+
+header{
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  color: grey;
+  padding: .5em 1em;
+}
+
+button{
+  background-color: #dbdbdb;
+  border-radius: 17px;
+  border: 2px solid white;
+  color: #655f5f;
+  font-weight: bold;
+  margin: 8px 10px;
+  padding: 5px 15px;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2em 10%;
+  width: 80%;
+}
+
+.item {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+  padding: 1.5em;
+  width: 30em;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item h2 {
+  font-size: 1em;
+  margin-bottom: .2em;
+}
+
+
+/* estilos para tema oscuro ---------------------------------------------------------------------------------------------- */
+
+.dark{
+  background-color: rgb(39, 39, 39);
+}
+.dark header{
+  background-color: rgb(19, 19, 19);
+  border-color: black;
+}
+
+.dark .cambiar{
+  background-color: #272727;
+  color: #aaaaaa;
+}
+.dark h1
+{ 
+  background-color: rgb(19, 19, 19);
+  border-color: black;
+  color: rgb(170, 170, 170);
+}
+
+.dark .item
+{
+  background-color: rgb(19, 19, 19);
+  border-color: black;
+  color: rgb(230, 230, 230);
+}
